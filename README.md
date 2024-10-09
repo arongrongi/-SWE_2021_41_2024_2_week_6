@@ -66,31 +66,31 @@ if __name__ == "__main__":
 > ```docker
 > docker exec ossp-container cat /etc/os-release
 > ```
-> > This command executes the `cat /etc/os-release` command inside the running container named **ossp-container**.
-> > \
-> > The `/etc/os-release` file contains operating system identification data, so this command is used to retrieve information about the OS running inside the container, such as its name, version, and other details.
-> > \
-> > Output
-> > \
-> > <img src= "
+> > * This command executes the `cat /etc/os-release` command inside the running container named **ossp-container**.
+> > * The `/etc/os-release` file contains operating system identification data, so this command is used to retrieve information about the OS running inside the container, such as its name, version, and other details.
+> > ### Output
+> > <img src="https://github.com/arongrongi/SWE_2021_41_2024_2_week_6/blob/main/1.jpg" width="600" height="250" />
 
 > ```docker
 > docker exec ossp-container git --version
 > ```
-> > This command runs `git --version` inside the ossp-container to **check the installed version of Git in that container**.
-> > \
-> > It helps confirm whether Git is installed and which version is running in the container.
+> > * This command runs `git --version` inside the ossp-container to **check the installed version of Git in that container**.
+> > * It helps confirm whether Git is installed and which version is running in the container.
+> > ### Output
+> > <img src="https://github.com/arongrongi/SWE_2021_41_2024_2_week_6/blob/main/2.jpg" width="600" height="40" />
 
 > ```docker
 > docker exec ossp-container python3 --version
 > ```
-> > This command executes `python3 --version` inside the container named ossp-container to **check the version of Python 3 installed in the container**.
-> > \
-> > It outputs the Python 3 version number.
+> > * This command executes `python3 --version` inside the container named ossp-container to **check the version of Python 3 installed in the container**.
+> > * It outputs the Python 3 version number.
+> > ### Output
+> > <img src="https://github.com/arongrongi/SWE_2021_41_2024_2_week_6/blob/main/3.jpg" width="600" height="40" />
 
 > ```docker
 > docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
 > ```
-> > This command **inspects the Docker container ossp-container** and **extracts information about the bind mounts** (file or directory bindings between the host and the container).
-> > \
-> > The `--format="{{ .HostConfig.Binds }}"` part formats the output to **specifically display the bind mount configurations**, which show how directories on the host machine are mapped to the container.
+> > * This command **inspects the Docker container ossp-container** and **extracts information about the bind mounts** (file or directory bindings between the host and the container).
+> > * The `--format="{{ .HostConfig.Binds }}"` part formats the output to **specifically display the bind mount configurations**, which show how directories on the host machine are mapped to the container.
+> > ### Output
+> > <img src="https://github.com/arongrongi/SWE_2021_41_2024_2_week_6/blob/main/4.jpg" width="600" height="40" />
