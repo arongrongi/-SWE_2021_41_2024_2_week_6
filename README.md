@@ -1,10 +1,10 @@
 # Week 4 Assignment
 
 ### Repository Link
->> [GITHUB LINK] https://github.com/arongrongi/SWE_2021_41_2024_2_week_4
+https://github.com/arongrongi/SWE_2021_41_2024_2_week_4
 
 ### Code
-'''python
+<code>
 def isHappy(n):
 
   if(n == 1 or n == 7): # 예외 case 처리
@@ -33,9 +33,10 @@ def isHappy(n):
 def main():
   num = int(input())
   result = isHappy(num)
-'''
+  
   if(result): print("True")
   else: print("False")
 
 if __name__ == "__main__":
   main()
+</code>
