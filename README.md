@@ -1,10 +1,11 @@
 # Week 4 Assignment
-\
+
 ### Repository Link
-> [GITHUB LINK] https://github.com/arongrongi/SWE_2021_41_2024_2_week_4
-\
+>> [GITHUB LINK] https://github.com/arongrongi/SWE_2021_41_2024_2_week_4
+
 ### Code
-> def isHappy(n):
+'''python
+def isHappy(n):
 
   if(n == 1 or n == 7): # 예외 case 처리
     return True
@@ -32,7 +33,7 @@
 def main():
   num = int(input())
   result = isHappy(num)
-
+'''
   if(result): print("True")
   else: print("False")
 
