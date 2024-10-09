@@ -1,7 +1,7 @@
 # Week 4 Assignment
 
 ## 1. Repository Link
-https://github.com/arongrongi/SWE_2021_41_2024_2_week_4
+[Week4 GitHub Link](https://github.com/arongrongi/SWE_2021_41_2024_2_week_4)
    
 ## 2. Problem Statement : Write an algorithm to determine if a number `n` is happy.
 A **happy number** is a number defined by the following process:
